@@ -74,8 +74,3 @@ if __name__ == '__main__':
         print('[*] Saved urls to %s' % filename)
     else:
         print('[-] Not able to find any url')
-
-
-    
-
-
