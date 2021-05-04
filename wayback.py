@@ -39,7 +39,7 @@ try:
     for currentArgument, currentValue in arguments:
  
         if currentArgument in ("-h", "--help"):
-            help()
+            usage()
 
 except getopt.error as err:
     print (str(err))
